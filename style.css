@@ -1,0 +1,298 @@
+/* ------General Body ----*/
+
+body{
+	font-size: 100%;
+	font: 1.15em/1.3 'Play','helvetica', arial, san-serif;
+	font-weight: 300;
+}
+
+h1{
+
+	font: 2.25em/1 'Play','helvetica', arial, san-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+
+
+}
+
+h2{
+	font: 1.35em/2 'Play','helvetica', arial, san-serif;
+	font-weight: 400;
+	text-align: center;
+
+}
+
+/* ------Nav Bar----*/
+
+.top-nav{
+	height: 5.9%;
+	background-color: #cccc99;
+
+}
+
+ul#nav-list{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-transform: uppercase;
+
+}
+
+ul#nav-list{
+	margin-left: 7%;
+}
+
+ul#nav-list li{
+	float: left;
+	
+
+}
+ul#nav-list li a {
+	display: block;
+	color: gray;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+}
+nav{
+	position: fixed;
+	width: 100%;
+	z-index: 1199;
+}
+
+
+ul#nav-list  li a:hover:not(.active) {background-color: #003333;}
+ul#nav-list li a.active {background-color: #4CAF50;}
+
+/* ------Rules for mobile verison----*/
+@media screen and (max-width: 600px){
+
+	ul#nav-list li {
+		float: none;
+	}
+	.top-nav{
+		height: 20%;
+	}
+	ul#nav-list li a {
+		display: block;
+		text-decoration: underline;
+		color: white;
+		text-align: center;
+		padding: 2px 16px;
+		text-decoration: underline;
+	}
+
+}
+
+/* ------Section-----*/
+
+section{
+	background:red;
+	color:white;
+}
+
+
+section#page-header{
+	height: 100vh; /* viewport height*/
+	width:100%;
+	background: #ccc url(images/road.jpg) no-repeat center center;
+	background-size:cover;
+	color:white;
+	display: table;
+}
+
+section#page-header header{
+	width:100%;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+
+section#page-header header h1{
+	font-size: 4em;
+	font-weight: 400;
+	line-height: 1em;
+
+}
+
+
+section#page-header header h2{
+	font-size: 1.45em;
+	font-weight: 300;
+	text-transform: uppercase;
+
+}
+
+#btn1 {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #006699; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#microsoft-position{
+	display: block;
+
+}
+/*----Experience section---*/
+
+#work-experience{
+	background-color: #eee;
+	color:gray;
+}
+
+#skills-section{
+	text-align: center;
+	color: black;
+	padding-bottom: 50px 
+}
+
+#employment-font{
+	color: black; 
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+#work-font{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	font-size: .8em;
+	width:80%;
+	border: 0px gray;
+	word-wrap:  break-word;
+}
+
+#work-font1{
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	margin-top: -20px;
+	font-size: .8em;
+	width:90%;
+	word-wrap:  break-word;
+}
+#work-font2{
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-top: -20px;
+	font-size: .8em;
+	width:90%;
+	word-wrap:  break-word;
+	text-align: left;
+}
+
+#skills-font{
+	word-wrap:  break-word;
+	font-size: .9em;
+}
+
+#job-desc-align{
+	padding-top: 15px;
+}
+
+#dates-align{
+	text-align: right;
+}
+
+#skills-align{
+	margin-left: 160px;
+	margin-top: 4px;
+	padding-bottom: 30px;
+	width: 30%;
+
+}
+
+#lang-align{
+	position: absolute;
+	margin-left: -50px;
+	margin-bottom: 30px;
+	color:gray;
+}
+
+#lang1-align{
+	position: absolute;
+	margin-left: -41px;
+	color:gray;
+}
+#lang2-align{
+	position: absolute;
+	margin-left: -90px;
+	color:gray;
+}
+
+.verticalLine{
+	border-left: 5px dotted black;
+	margin-left: 50px;
+}
+/*---Tables---*/
+
+.circle1{
+	font-size:24px;
+	color: orange;
+    margin-left: -13px;
+    margin-top: -4px;
+}
+
+tr{
+	word-wrap:  break-word;
+}
+td{
+	font-weight: bold;
+}
+
+/*---Education Section---*/
+#education-section{
+background-color: #339999;
+}
+
+#education-align{
+margin-top: 45px;
+}
+
+.edu-table{
+	margin-bottom: 20px;
+}
+#spacing-below-table{
+
+}
+
+#edu-dates{
+text-align: left;
+}
+
+#edu-font1{
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	margin-top: -20px;
+	font-size: .8em;
+	width:90%;
+	word-wrap:  break-word;
+
+}
+
+
+
+/*---Footer Section---*/
+footer{
+	background-color: #0099cc;
+}
+
+
