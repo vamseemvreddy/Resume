@@ -180,7 +180,7 @@ section#page-header header h2{
 }
 
 #work-font1{
-	margin-left: 37px;
+	margin-left: 50px;
 	margin-right: 100px;
 	margin-bottom: 50px;
 	margin-top: -20px;
@@ -258,12 +258,23 @@ td{
 }
 
 /*---Education Section---*/
+
+
+#education-section1{
+	text-align: center;
+	color: black;
+	padding-bottom: 50px 
+	
+}
+
 #education-section{
 background-color: #339999;
 }
 
 #education-align{
 margin-top: 45px;
+color:black;
+padding-left: 40%;
 }
 
 .edu-table{
@@ -285,7 +296,14 @@ text-align: left;
 	font-size: .8em;
 	width:90%;
 	word-wrap:  break-word;
+}
 
+#education-header{
+	font-weight:  bold;
+}
+
+#education-content{
+	font-size: 14px;
 }
 
 
